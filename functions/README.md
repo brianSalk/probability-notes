@@ -30,6 +30,13 @@ f_Y(y) = P(Y = y)
 # Transformations of random variables
 Sometimes we are given a PMF and we need to find a transformation.  Here is an axample:  
 ```math
-\text{X is a random variable that takes a value 1-5 with equal probability, find the PMF for \quad } Y = mod(X)
+\text{X is a random variable that takes a value 1-5 with equal probability, find the PMF for \quad } Y = 3 \% X
+```
+```math
+f_Y(y) = \begin{cases}
+\frac{1}{5} & \text{if} & y = 0 \\
+\frac{2}{5} & \text{if} & y = 1 \\
+\frac{2}{5} & \text{if} & y = 2
+\end{cases}
 ```
 
