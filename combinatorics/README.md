@@ -17,5 +17,5 @@ Since the first and last character must be `|`, we can actually subtract $1$,
 {10 + 4 - 1 \choose 10}
 ```
 Other examples - we have $k$ ingredients and choose one ingredient $n$ times.  
-**Isomorphic Problem**: Two problems that actually lead to the same equation.  Examples are (count binary strings of length $n$ vs. $n^2$).
+**Isomorphic Problem**: Two problems that actually lead to the same equation.  Examples are (count binary strings of length $n$ vs. $n^2$).  
 **Story Proof**: A mathematical proof that is simply explaining an insight about why some statement is true.  
