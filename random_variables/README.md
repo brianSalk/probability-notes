@@ -9,6 +9,7 @@ This idea of Random Variables as functions mapping the sample space to a real nu
 |HT          |1          |
 |TH          |1          |
 |TT          |0          |
+
 So if we call our random variable $X$, we have the following mappings according to the above table:  
 ```math
 X(HH) = 2
