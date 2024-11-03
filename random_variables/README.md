@@ -29,3 +29,4 @@ Most of the time, we just care that $X$ could be any of the above, not specifica
 ```math
 P(X = x) \gt 0
 ```
+One of the most common and intuitive ways to express a random variable is with a probability mass function.
