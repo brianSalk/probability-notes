@@ -70,3 +70,4 @@ The PMF for a binomial distribution is
 ```math
 P(X = x) = {n \choose x} p^x (1-p)^{n-x}
 ```
+## Hypergeometric Distribution
