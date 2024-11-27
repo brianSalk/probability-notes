@@ -44,4 +44,12 @@ p_X(x) = \begin{cases}
 \end{cases}
 ```
 You can use a PMF to find the probability that an event falls on a specific value or within a range of values.  
+## Bernoulli distribution
+Some distributions are so common and useful that they get their own names.  
+Bernoulli distribtions describe the probability of success (1) or failure (0) of a single trial.  If you are already familiare with the binomial distribtion, then just think of Bernoulli distributions as a special case of the binomial distribution where $n=1$.  
+Here is the notation for a r.v. of a bernoulli distribution:
+```math
+X \sim Bern(p)
+```
+Where X is a r.v. that takes on the value of 1 with probability p and 0 with probability (1-p).  
 
