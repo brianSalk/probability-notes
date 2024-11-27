@@ -24,7 +24,8 @@ X(TH) = 1
 X(TT) = 0
 ```
 Which means that you can 'randomly' pass $HH, HT, TH,$ and $TT$ to $X$ with equal probability. 
-Most of the time, we just care that $X$ could be any of the above, not specifically which one it is.  
+Most of the time, we just care that $X$ could be any of the above, not specifically which one it is.  It is convention for the r.v to be a uppercase letter and the value it can take a lowercase letter.  
+The source of randomness is the experiment itself.  
 **Support**: The support is all the possible values of $X$ that yield non-zero probability.  Support is something you can plug into $x$:
 ```math
 P(X = x) \gt 0
