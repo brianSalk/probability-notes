@@ -60,4 +60,13 @@ $$
 I_a \sim Bern(p)
 $$
 ## Binomial Distribution
-
+A binomial distribution is just $n$ Bernoulli trials, do
+```math
+X \sim Binom(n,p)
+```
+means that we perform $n$ bernoulli trials, each with probability of success $p$, and $X$ is a r.v. that tells us how many successes we are expecting.  
+$X$ will always take on a value between $0$ and $n$.  
+The PMF for a binomial distribution is
+```math
+P(X = x) = {n \choose x} p^x (1-p)^{n-x}
+```
