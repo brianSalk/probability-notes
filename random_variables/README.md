@@ -30,4 +30,18 @@ The source of randomness is the experiment itself.
 ```math
 P(X = x) \gt 0
 ```
-One of the most common and intuitive ways to express a random variable is with a probability mass function.
+One of the most common and intuitive ways to express a random variable is with a probability mass function.  
+```math
+p_X(x) = P(X = x)
+```
+in the above, we are saying that $X$ equals $x$ with a certain probability (unless $x$ is not supported, then it never happens) described by $p_X(x)$  
+Here is an example of a probability mass function (PMF) of how many heads you will get when flipping 2 coins
+```math
+p_X(x) = \begin{cases}
+\frac{1}{4} & if x = 0 \\
+\frac{1}{2} & if x = 1 \\
+\frac{1}{4} & if x = 2 
+\end{cases}
+```
+You can use a PMF to find the probability that an event falls on a specific value or within a range of values.  
+
