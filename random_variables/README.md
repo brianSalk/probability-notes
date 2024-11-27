@@ -52,7 +52,7 @@ Here is the notation for a r.v. of a bernoulli distribution:
 X \sim Bern(p)
 ```
 Where X is a r.v. that takes on the value of 1 with probability p and 0 with probability (1-p).  
-It is correct but incomplete to describe $X$ in the above example as being a bernoulli distribution.  
+It is correct but incomplete to describe $X$ in the above example as being a r.v. of a bernoulli distribution.  
 Bernoulli describes - not a single - but a family of distributions all differing by the value of paramater p.  
 The r.v. or a Bernoulli distribution is called an *indicator variable*, meaning it tells us if an event occured or not by being equal to 1 or 0.  
 For exmple, if we want to indicate that event $A$ happens with probability $p$, we could write:
