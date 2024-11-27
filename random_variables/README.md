@@ -60,7 +60,7 @@ $$
 I_a \sim Bern(p)
 $$
 ## Binomial Distribution
-A binomial distribution is just $n$ Bernoulli trials, do
+A binomial distribution is just $n$ ***independant*** Bernoulli trials, so
 ```math
 X \sim Binom(n,p)
 ```
@@ -71,3 +71,13 @@ The PMF for a binomial distribution is
 P(X = x) = {n \choose x} p^x (1-p)^{n-x}
 ```
 ## Hypergeometric Distribution
+When the trials are not independant, such as sampling without replacement, then the experiment follows a *hypergeometric distribution*.  
+The definition of a hypergeometric distribution is
+```math
+P(X = s) = \dfrac{ {S \choose s} {N - S \choose N - s }{N \choose n}
+```
+Where:
+$s$ is sample success  
+$S$ is population success
+$N$ is popultation size and  
+$n$ is sample size
