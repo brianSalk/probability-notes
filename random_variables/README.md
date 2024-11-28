@@ -72,9 +72,9 @@ P(X = x) = {n \choose x} p^x (1-p)^{n-x}
 ```
 ## Hypergeometric Distribution
 When the trials are not independant, such as sampling without replacement, then the experiment follows a *hypergeometric distribution*.  
-The definition of a hypergeometric distribution is
+The PMF of a hypergeometric distribution is
 ```math
-P(X = s) = \dfrac{ {S \choose s} {N - S \choose N - s } }{N \choose n}
+P(X = s) = \dfrac{ {S \choose s} {N - S \choose n - s } }{N \choose n}
 ```
 Where:
 $s$ is sample success  
