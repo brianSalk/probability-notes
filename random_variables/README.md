@@ -86,6 +86,6 @@ CDFs give the probability that a random variable takes on a value less than or e
 ```math
 F_X(x) = P(X \le x)
 ```
-Notice that for PMFs, we used $f$ but now for CDFs, we are using $F$.
+Notice that for PMFs, we used $f$ or $p$ but now for CDFs, we are using $F$.
 
 ## Functions of Random Variables
