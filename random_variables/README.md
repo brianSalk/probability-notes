@@ -89,3 +89,8 @@ F_X(x) = P(X \le x)
 Notice that for PMFs, we used $f$ or $p$ but now for CDFs, we are using $F$.
 
 ## Functions of Random Variables
+Since a r.v. is a mapping from a value to a number on the real number line, a function of a r.v. is just a new mapping from the other r.v. to a new real number.  
+When taking a function of a r.v., you are essetially passing the return value of one function into another.  
+If you do not know the PMF of a r.v., try to express the r.v. as a one-to-one function of another r.v.  
+
+
