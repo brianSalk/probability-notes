@@ -81,3 +81,11 @@ $s$ is sample success
 $S$ is population success
 $N$ is popultation size and  
 $n$ is sample size
+## Cumulative Density Function CDF
+CDFs give the probability that a random variable takes on a value less than or equal to a threshhold.  
+```math
+F_X(x) = P(X \le x)
+```
+Notice that for PMFs, we used $f$ but now for CDFs, we are using $F$.
+
+## Functions of Random Variables
