@@ -92,5 +92,11 @@ Notice that for PMFs, we used $f$ or $p$ but now for CDFs, we are using $F$.
 Since a r.v. is a mapping from a value to a number on the real number line, a function of a r.v. is just a new mapping from the other r.v. to a new real number.  
 When taking a function of a r.v., you are essetially passing the return value of one function into another.  
 If you do not know the PMF of a r.v., try to express the r.v. as a one-to-one function of another r.v.  
+## Category errors
+When we confuse r.v.s with distributions or trials, we are commiting a category error.  The following are examples of a category error:
+If I have a PMF $f_X(x)$, and I want to find the PMF of $f_X(2x)$, but accidentally do $2f_X(x)$, then I am confusing function with the variable.  
+Another error would be to think that because two PMFS have the same distribution that the r.v.s are always equal.  This would be an example of confusing the variable with the distribution.  
+
+
 
 
