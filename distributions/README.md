@@ -13,7 +13,7 @@ A special case of the binomial distribtution where $n=1$.
 ## Poisson distribution
 A discrete probability distribution that gives the probability of getting $k$ successes in a period of time, given the $\lambda$, where $\lambda$ is the probabilty that that event happens once in a period of time.  
 ## Hypergeometri distribution
-A discrete probability distribution that represents the probability that two randmly assigned categories will both be assigned to $k$ of the elements.  Another way of looking at this is the hypergeometic distribution is the like the binomial distribution without replacement.  This approximates the binomial distribution is $\lim\limits_{n/N \to \infty} X = 0$ where $X$ is a random variable from the hypergeometric distribution.
+A discrete probability distribution that represents the probability that two randmly assigned categories will both be assigned to $k$ of the elements.  Another way of looking at this is the hypergeometic distribution is the like the binomial distribution without replacement.  This approximates the binomial distribution when $\lim\limits_{n/N \to \infty} X = 0$ where $X$ is a random variable from the hypergeometric distribution.
 ```math
 phyper(N, n, S, s) = \dfrac{{S \choose s} {N-S \choose n-s}}{{N \choose n}}
 ```
