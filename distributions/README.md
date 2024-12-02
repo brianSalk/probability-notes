@@ -22,5 +22,13 @@ $N = \text{population size}$
 $n = \text{sample size}$  
 $S = \text{successes in population}$  
 $s = \text{successes in sample}$
-# Uniform distribution
+## Uniform distribution
 Use this when sampling from $N$ unique elements with replacement if each element has the same probability of being selected.
+
+## Geometric distribution
+The geometric distribution describes the number of independant trials needed to get 1 success when probability of success is $p$.  
+Some books define the geometric distribution as the number of failures before the success.
+```math
+Geom(X) = P(X = k) = (1-p)^kp
+```
+
