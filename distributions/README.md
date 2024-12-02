@@ -31,4 +31,8 @@ Some books define the geometric distribution as the number of failures before th
 ```math
 Geom(X) = P(X = k) = (1-p)^kp
 ```
-
+## Negative Binomial distribution
+This distribution gives the number of trials until $n$ successes where each trial is independant and has probability $p$.  
+```math
+P(X = n) = {n + r - 1 \choose r- 1 } p^rq^n
+```
