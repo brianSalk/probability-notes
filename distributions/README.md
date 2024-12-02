@@ -22,3 +22,5 @@ $N = \text{population size}$
 $n = \text{sample size}$  
 $S = \text{successes in population}$  
 $s = \text{successes in sample}$
+# Uniform distribution
+Use this when sampling from $N$ unique elements with replacement if each element has the same probability of being selected.
