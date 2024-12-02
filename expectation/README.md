@@ -17,3 +17,15 @@ and if you have a constant $c$,
 cE(X) = E(cX)
 ```
 We can find the average in a *grouped* or *ungrouped* way.  
+## Expected values of distributions
+The expected value of a binomial distribution is:
+```math
+np
+```
+For hypergenomic:
+```math
+\dfrac{sn}{N}
+```
+where $n$ is sample size, $N$ is population size and $s$ is number of successes in the population.
+
+For Negative Binomial
