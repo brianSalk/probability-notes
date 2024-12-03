@@ -22,10 +22,27 @@ The expected value of a binomial distribution is:
 ```math
 np
 ```
+
 For hypergenomic:
 ```math
 \dfrac{sn}{N}
 ```
 where $n$ is sample size, $N$ is population size and $s$ is number of successes in the population.
 
-For Negative Binomial
+For Negative Binomial...
+
+## St. Peterburgs Paradox
+Look at the following function:
+```math
+f(i) = \sum_{i = 1}^{\infty} i \frac{1}{i^2}
+```
+The expected value of this function is $\infty$, but if there were a game with such returns, no body would pay more than a few dollars to play such a game.  Think about playing roulette and doubling your bet each time you lose.
+
+## LOTUS (Law Of The Unconcious Statistition)
+dispite all that we learned about linear functions, if a given function $g$ is not linear, then 
+```math
+g(E(X)) \ne E(g(X))
+```
+So how do we find $E(g(X))$?  We can use
+\sum_{x} g(x)P(X = x)
+```
