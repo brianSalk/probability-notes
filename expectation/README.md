@@ -43,6 +43,7 @@ dispite all that we learned about linear functions, if a given function $g$ is n
 ```math
 g(E(X)) \ne E(g(X))
 ```
+```math
 So how do we find $E(g(X))$?  We can use
 \sum_{x} g(x)P(X = x)
 ```
