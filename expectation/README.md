@@ -31,6 +31,21 @@ where $n$ is sample size, $N$ is population size and $s$ is number of successes 
 
 For Negative Binomial...
 
+## Indicator variables
+An indicator random variable $I_A = 1$ if event $A$ occures, else $I_A = 0$  
+remember the follwoing identities:
+```math
+I_A^k = I_A \text{ when } k \text{ is positive}
+```
+```math
+I_{A^c} = 1 - I_A
+```
+```math
+I_{A \cup B} = I_A + I_B - I_AI_B
+```
+```math
+I_{A \cap B} = I_AI_B
+```
 ## St. Peterburgs Paradox
 Look at the following function:
 ```math
