@@ -62,3 +62,13 @@ So how do we find $E(g(X))$?  We can use
 ```math
 \sum_{x} g(x)P(X = x)
 ```
+
+## Variance
+```math
+V(X) = E(X - Ex)^2
+```
+Which is equivalent to 
+```math
+V(X) = E(X^2) - (EX)^2
+```
+it is less common to use the absolute value for variance because that would not be differentiable at $0$, also using the difference of squares has other nice properties.
