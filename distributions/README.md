@@ -1,7 +1,7 @@
 # Distributions
 ## Normal distribution
 A continuous distribution that is symmetric and has a bell shape.  This distribution shows up all over nature.  
-If you sample ***virtually any*** distribution and take the mean of the samples, those sample means will approximate a normal distribution.  
+If you sample ***virtually any*** distribution and take the mean of the samples, the distribution created by those sample means will approximate a normal distribution.  
 ## Binomial distribution
 A discrete distribution that represents the probability of getting $r$ successes out of $n$ trials with probability of success $p$.  
 When $p$ is close to $0.5$ and $n$ is arbitrarily large, the binomial distribution approximates the normal distribution.  
