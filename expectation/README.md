@@ -65,7 +65,7 @@ So how do we find $E(g(X))$?  We can use
 
 ## Variance
 ```math
-V(X) = E(X - Ex)^2
+V(X) = E(X - EX)^2
 ```
 Which is equivalent to 
 ```math
