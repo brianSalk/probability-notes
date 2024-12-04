@@ -29,7 +29,10 @@ For hypergenomic:
 ```
 where $n$ is sample size, $N$ is population size and $s$ is number of successes in the population.
 
-For Negative Binomial...
+For Negative Binomial
+```math
+\dfrac{1}{p}
+```
 
 ## Indicator variables
 An indicator random variable $I_A = 1$ if event $A$ occures, else $I_A = 0$  
