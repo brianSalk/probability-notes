@@ -1,4 +1,5 @@
 # Continuous Distributions
+The probability density function (PDF) is analygous to the PMF for descrete varables.  
 the PDF of a continuous distribution is the derivative of the CDF.
 ```math
 P(X = x) = \int_a^a f(x) dx = f(a) - f(a) = 0
@@ -11,4 +12,9 @@ Which is the formal way of asking "given some function $f$, what is the probabil
 ```math
 P(a \lt X  \lt b) = P(a \le X \le b)
 ```
-**In summary, to find a probability of radom variable of a function of a continuous distribution, integrate over the desired range.**
+**In summary, to find a probability of radom variable of a function of a continuous distribution, integrate over the desired range.**  
+A valid PDF must integrate to 1.  
+```math
+\int_{- \infty}^{\infty} f(x) = 1
+```
+
