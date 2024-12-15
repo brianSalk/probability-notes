@@ -15,7 +15,7 @@ P(a \lt X  \lt b) = P(a \le X \le b)
 **In summary, to find a probability of radom variable of a function of a continuous distribution, integrate over the desired range.**  
 A valid PDF must integrate to 1.  
 ```math
-\int_{- \infty}^{\infty} f(x) = 1
+\int_{- \infty}^{\infty} f(x) = 1 \\ dx
 ```
 The height of a PDF is the probability that the actual value will be very close to that value.  
 
