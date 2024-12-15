@@ -17,6 +17,8 @@ A valid PDF must integrate to 1.
 ```math
 \int_{- \infty}^{\infty} f(x) = 1
 ```
+The height of a PDF is the probability that the actual value will be very close to that value.  
+
 
 ## Logistic Distribution
 The logistic distribution has the following CDF
@@ -31,5 +33,9 @@ I am going to have to re-learn integral calculus in order to understand any of t
 ### Brush up on basic integrals and derivatives.  
 ### Learn how to substitute in the bounds like the do on page 198 (rewrite this after you find out what it is called)
 ### Make sure you understand PMF and CDF really well, right now it is a bit shaky.
+
+## Rayleigh Distribution
+... skipping this for now...
+
 
 
