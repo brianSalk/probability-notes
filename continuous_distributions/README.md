@@ -41,8 +41,13 @@ I am going to have to re-learn integral calculus in order to understand any of t
 There is also a continuous version of the Uniform distribution. 
 The expected value of a continuous Uniform distribution is
 ```math
-E(X) = \int_0^1 xdx = \dfrac{1}{2}
+E(X) = \int_b^a xdx = \dfrac{1}{2}
 ```
+the varaiance is
+```math
+VAR(X) = E(X)^2 - E(X^2) = \dfrac{1}{4} - \dfrac{1}{3} = \dfrac{1}{12}
+```
+
 ### location-scale transformation of Uniform distribution
 Let $X$ be a r.v of a uniform distribution
 ```math
@@ -57,6 +62,15 @@ In other words:
 $\sigma$: Moves the original distribution left or right  
 $\mu$: stretches or shrinks the distribution  
 If you transform a Uniform distribution, you always get another Uniform distribution.  
+### Standard Uniform Distribution
+the Uniform distribution
+```math
+Unif(0,1)
+```
+is known as the standard uniform distribution.  Because it is always a value between $0$ and $1$, the probaiblity of a r.v. being within a certain range is equivalent to the range.  We can then use transformations to get new r.v.s.  
+We do ***not*** apply the tranformation to the distribution, but instead to the r.v.
+
+### Fundamental Theorem of Simulation
 
 
 
