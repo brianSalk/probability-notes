@@ -72,5 +72,5 @@ We do ***not*** apply the tranformation to the distribution, but instead to the 
 
 ### Fundamental Theorem of Simulation
 
-
+left off on page 205
 
