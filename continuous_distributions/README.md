@@ -37,5 +37,26 @@ I am going to have to re-learn integral calculus in order to understand any of t
 ## Rayleigh Distribution
 ... skipping this for now...
 
+## Uniform distribution
+There is also a continuous version of the Uniform distribution. 
+The variance of a continuous Uniform distribution is
+```math
+VAR(X) = \int_0^1 xdx = 
+```
+### location-scale transformation of Uniform distribution
+Let $X$ be a r.v of a uniform distribution
+```math
+X = Unif(a,b)
+```
+and let $Y$ be the transformed random variable
+```math
+Y = \sigma + X \mu
+```
+Where $\sigma$ changes the location and $\mu$ changes the scale.  
+In other words:  
+$\sigma$: Moves the original distribution left or right  
+$\mu$: stretches or shrinks the distribution  
+If you transform a Uniform distribution, you always get another Uniform distribution.  
+
 
 
