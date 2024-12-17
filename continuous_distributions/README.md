@@ -39,9 +39,9 @@ I am going to have to re-learn integral calculus in order to understand any of t
 
 ## Uniform distribution
 There is also a continuous version of the Uniform distribution. 
-The variance of a continuous Uniform distribution is
+The expected value of a continuous Uniform distribution is
 ```math
-VAR(X) = \int_0^1 xdx = 
+E(X) = \int_0^1 xdx = \dfrac{1}{2}
 ```
 ### location-scale transformation of Uniform distribution
 Let $X$ be a r.v of a uniform distribution
