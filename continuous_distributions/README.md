@@ -41,7 +41,7 @@ I am going to have to re-learn integral calculus in order to understand any of t
 There is also a continuous version of the Uniform distribution. 
 The expected value of a continuous Uniform distribution is
 ```math
-E(X) = \int_b^a xdx = \dfrac{1}{2}
+E(X) = \int_a^b xdx = \dfrac{b-a}{2}
 ```
 the varaiance is
 ```math
