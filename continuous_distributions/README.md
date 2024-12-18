@@ -70,7 +70,10 @@ Unif(0,1)
 is known as the standard uniform distribution.  Because it is always a value between $0$ and $1$, the probaiblity of a r.v. being within a certain range is equivalent to the range.  We can then use transformations to get new r.v.s.  
 We do ***not*** apply the tranformation to the distribution, but instead to the r.v.
 
-### Fundamental Theorem of Simulation
+## Fundamental Theorem of Simulation
 
-left off on page 205
+Given a random variable from the distribution $Unif(0,1)$, we can construct a random variable from any other continuous distribution.  The inverse also works.  
+### Inverse CDF.
+The inverse CDF is also known as the quartile function.  The inverse CDF is a function where you plug in the desired probability and you get the x value associated with that probability.
+
 
