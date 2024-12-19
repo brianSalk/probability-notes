@@ -76,4 +76,12 @@ Given a random variable from the distribution $Unif(0,1)$, we can construct a ra
 ### Inverse CDF.
 The inverse CDF is also known as the quartile function.  The inverse CDF is a function where you plug in the desired probability and you get the x value associated with that probability.
 
+## Normal distribution
+The normal distribution is a very common distribution in statistics.  It produces a symmetrical bell shape.  
+This distribution is common due to the *central limit theorem* which guarentees (under most conditions) the the means of samples from any distribtuion will begin to approximate a normal distribution.  
+The PDF of the standard normal distribution is as follows:
+```math
+\phi(z) = \dfrac{1}{\sqrt{2\pi}}e^{\frac{-z^2}{2}}
+```
+
 
