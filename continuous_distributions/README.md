@@ -84,5 +84,7 @@ The PDF of the standard normal distribution is as follows:
 \phi(z) = \dfrac{1}{\sqrt{2\pi}}e^{\frac{-z^2}{2}}
 ```
 The CDF $\Phi$ is:
-\Phi(z) = \int_{-\infty}^{z} \phi{t} dx
+$$
+\Phi(z) = \int_{-\infty}^{z} \phi(t) dx
+$$
 
