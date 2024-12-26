@@ -41,3 +41,13 @@ Skewdness is the third standard motion
 ```math
 Skew(X) = E(\left( \dfrac{X - \mu}{\sigma} \right)^3)
 ```
+Kurtosis is measured using the $4^{th}$ standard moment.
+```math
+Kurt(X) = E\left(\dfrac{X - \mu}{\sigma}\right)^4 - 3
+```
+We subtract $3$ to make the standard normal distribution have kurtosis of $0$.  Also note that omitting the outer parentheses does not change order of operations.  
+Using $Z$, the normal distribution as our reference point, we can talk about the kurtosis of other distributions in terms of $Z$.  
+### Terminology
+**1 $\sigma$ from the mean:**  center  
+**2 $\sigma$ from the mean:** shoulders  
+**3 $\sigma$ from the mean:** tails   
