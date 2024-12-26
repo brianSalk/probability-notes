@@ -25,3 +25,15 @@ The mode is the value that maximizes that PMF or PDF
 P(X = c) \gt P(X = x)
 ```
 for all $x$ values
+
+A given distribution can have multiple medians and multiple modes.  
+Mulpiple modes: there are multiple peaks with the same height  
+Multiple mdedians: There is a gap in the middle of a symetrical distribution.  A median then lies on any value at that gap.
+## Types of moments
+As previously stated, the $n^{th}$ moment is $E(X^n)$.  But there are other types of moments such as:  
+```math
+\text{nth cetral moment} = E((X-\mu)^n)
+```
+```math
+\text{nth standard moment} = E(\left( \dfrac{X - \mu}{\sigma} \right)^n)
+```
