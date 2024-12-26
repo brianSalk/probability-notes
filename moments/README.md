@@ -37,3 +37,7 @@ As previously stated, the $n^{th}$ moment is $E(X^n)$.  But there are other type
 ```math
 \text{nth standard moment} = E(\left( \dfrac{X - \mu}{\sigma} \right)^n)
 ```
+Skewdness is the third standard motion
+```math
+Skew(X) = E(\left( \dfrac{X - \mu}{\sigma} \right)^3)
+```
