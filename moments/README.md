@@ -51,3 +51,17 @@ Using $Z$, the normal distribution as our reference point, we can talk about the
 **1 $\sigma$ from the mean:**  center  
 **2 $\sigma$ from the mean:** shoulders  
 **3 $\sigma$ from the mean:** tails   
+
+## Moment Generating Functions
+A moment generating function
+  
+  
+A moment generating function of a random variable $X$ is
+```math
+M(t) = E(e^{tX})
+```
+For a Bernoulli distribution Bern(p), the moment generating function is  
+```math
+M(t) = E(e^{tX}) = E(e^{0X}) + E(e^{1X}) =  p \cdot e^t + (1-p)
+```
+This is because the random variable $X$ can only be either $1$ or $0$ for the bernoulli distribution  
