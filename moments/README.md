@@ -65,3 +65,7 @@ For a Bernoulli distribution Bern(p), the moment generating function is
 M(t) = E(e^{tX}) = E(e^{0X}) + E(e^{1X}) =  p \cdot e^t + (1-p)
 ```
 This is because the random variable $X$ can only be either $1$ or $0$ for the bernoulli distribution  
+When I first saw MGFs, I thought I would plug in $t=2$ to get the second moment, but that is not correct.  
+Instead, to find the $n^{th}$ moment, we must  
+**1)** differentiate the expectation of $e^{tX}$  
+**2)** plug in $t=0$
