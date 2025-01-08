@@ -9,5 +9,8 @@ p_{X,Y}(x,y) = P(X = x, Y = y)
 ```
 ## Marginal
 This measures the probabilty of one variable, ignoring the other(s)
+```math
+P(X = x) = \sum_{y} P(X = x, Y = y)
+```
 ## conditional
 This measures the probability of a variable given another variable has a certain value
