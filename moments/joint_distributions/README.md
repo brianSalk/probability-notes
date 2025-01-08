@@ -13,4 +13,5 @@ This measures the probabilty of one variable, ignoring the other(s)
 P(X = x) = \sum_{y} P(X = x, Y = y)
 ```
 ## conditional
-This measures the probability of a variable given another variable has a certain value
+This is the probability of one variable given that another variable has a certain value.
+
