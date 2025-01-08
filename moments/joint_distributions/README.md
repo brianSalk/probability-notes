@@ -14,4 +14,9 @@ P(X = x) = \sum_{y} P(X = x, Y = y)
 ```
 ## conditional
 This is the probability of one variable given that another variable has a certain value.
-
+```math
+P(X = x \vert Y = y) = \dfrac{P(X = x, Y = y)}{P(Y = y)}
+```
+```math
+P(X = x \vert Y = y) = \dfrac{P(Y = y \vert X = x)P(X = x)}{P(Y = y)}
+```
