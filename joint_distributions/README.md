@@ -34,4 +34,4 @@ The finite population correction is used to make our predictions more accurate w
 ```math
 FPC = \dfrac{N-n}{N-1}
 ```
-The variance of the hypergeometric distribution is 
+The variance of the hypergeometric distribution is $FPC \cdot np(1-p)$
