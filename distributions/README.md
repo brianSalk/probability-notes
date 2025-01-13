@@ -39,7 +39,7 @@ P(X = n) = {n + r - 1 \choose r- 1 } p^rq^n
 ## Multinomial distribution
 The multinomial distribution is a generalization of the binomial distribution.  We use multinomial distribution when there are $3$ or more possible outcomes of a trial.  
 ```math
-multinomial(X_1 = n_1, X_2 = n_2, \ldots, X_k = n_k) = \dfrac{n}{n_1 \cdot n_2 \cdot \ldots \cdot n_k} \cdot p_1^{n_1} \cdot p_2^{n_2} \cdot \ldots \cdot p_k^{n_k}
+multinomial(X_1 = n_1, X_2 = n_2, \ldots, X_k = n_k) = \dfrac{n!}{n_1! \cdot n_2! \cdot \ldots \cdot n_k!} \cdot p_1^{n_1} \cdot p_2^{n_2} \cdot \ldots \cdot p_k^{n_k}
 ```
 ## Exponential
 this is the continuous analog for the geometric distribution.
