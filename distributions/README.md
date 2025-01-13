@@ -32,7 +32,12 @@ Some books define the geometric distribution as the number of failures before th
 Geom(X) = P(X = k) = (1-p)^kp
 ```
 ## Negative Binomial distribution
-This distribution gives the number of failures until $r$ successes where each trial is independant and has probability $p$.  
+This distribution gives the number of failures until $r$ successes where each trial is independant and has probability $p$.  This is a generalization of the geometric distribution where we wait for more than $1$ success.
 ```math
 P(X = n) = {n + r - 1 \choose r- 1 } p^rq^n
+```
+## Multinomial distribution
+The multinomial distribution is a generalization of the binomial distribution.  We use multinomial distribution when there are $3$ or more possible outcomes of a trial.  
+```math
+multinomial(X_1 = n_1, X_2 = n_2 \ldots, X_k = n_k) = \dfrac{n}{n_1 \cdot n_2 \ldots \cdot n_k} \cdot p_1^{n_1} \cdot p_2^{n_2} \ldots \cdot p_k^{n_k}
 ```
