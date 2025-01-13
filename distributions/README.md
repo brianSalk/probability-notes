@@ -41,3 +41,5 @@ The multinomial distribution is a generalization of the binomial distribution.  
 ```math
 multinomial(X_1 = n_1, X_2 = n_2 \ldots, X_k = n_k) = \dfrac{n}{n_1 \cdot n_2 \ldots \cdot n_k} \cdot p_1^{n_1} \cdot p_2^{n_2} \ldots \cdot p_k^{n_k}
 ```
+## Exponential
+this is the continuous analog for the geometric distribution.
