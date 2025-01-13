@@ -26,3 +26,12 @@ Covariance is a measure of joint variability of two random variables.  The sign 
 ```math
 Corr(X,Y) = \dfrac{Cov(X,Y}{\sqrt{Var(X)Var(Y)}}
 ```
+In words, we divide the covriance by the product of the standard deviations of both distributions.  
+Scaling and shifting have no impact on the correlation.  
+
+## Finite Population Correction
+The finite population correction is used to make our predictions more accurate when our population is relatively small.  
+```math
+FPC = \dfrac{N-n}{N-1}
+```
+The variance of the hypergeometric distribution is 
