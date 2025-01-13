@@ -22,3 +22,7 @@ P(X = x \vert Y = y) = \dfrac{P(Y = y \vert X = x)P(X = x)}{P(Y = y)}
 ```
 ## Covariance
 Covariance is a measure of joint variability of two random variables.  The sign of the covariance tells us whether the corrolation is positive or negative, but it says nothing about the magnitude.
+## Correlation
+```math
+Corr(X,Y) = \dfrac{Cov(X,Y}{\sqrt{Var(X)Var(Y)}}
+```
